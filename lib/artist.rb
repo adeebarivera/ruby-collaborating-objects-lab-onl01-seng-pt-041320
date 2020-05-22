@@ -9,7 +9,7 @@ class Artist
     def self.all #defining this as the reader for class variable @@all.
         @@all
     end
-    def add_song (song) #song instance will be passed into this method and we're just assigning the artist to it. 
+    def add_song (song) 
         song.artist = self
     end
     def songs #
